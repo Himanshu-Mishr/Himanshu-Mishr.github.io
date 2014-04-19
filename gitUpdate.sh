@@ -15,21 +15,21 @@ Whi='\e[0;37m';     BWhi='\e[1;37m';    UWhi='\e[4;37m';    IWhi='\e[0;97m';    
 
 # usage :: Then you can just echo -e "${Blu}blue ${Red}red ${RCol}etc...."
 
-echo -e " ████████▶ RUNNING : git status"
+echo -e " ████████▶ ${BWhi}RUNNING : git status"
 git status
 
-echo -e " ████████▶ RUNNING : git add *"
+echo -e " ████████▶ ${BWhi}RUNNING : git add *"
 git add *
 
-echo -e " ████████▶ RUNNING : git commit -m 'updating index.html'"
+echo -e " ████████▶ ${BWhi}RUNNING : git commit -m 'updating index.html'"
 git commit -m "updating index.html"
 
-echo -e " ████████▶ RUNNING : git pull -u origin master"
+echo -e " ████████▶ ${BWhi}RUNNING : git pull -u origin master"
 git pull -u origin master
 
-echo -e " ████████▶ RUNNING : git push"
+echo -e " ████████▶ ${BWhi}RUNNING : git push"
 git push
 
-echo -e " ████████▶ RUNNING : git status"
+echo -e " ████████▶ ${BWhi}RUNNING : git status"
 git status
 
