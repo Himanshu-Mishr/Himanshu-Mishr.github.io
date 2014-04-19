@@ -32,4 +32,5 @@ git push
 echo -e "------------------------------------------------------------"
 echo -e " ▩▩▩▩▩▩▩▩▶ git status"
 git status
+echo -e " ✔ Git Repository Successfully Updated  ( ͡° ͜ʖ ͡°)"
 
