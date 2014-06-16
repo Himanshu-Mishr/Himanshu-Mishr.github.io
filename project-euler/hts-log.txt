@@ -1,0 +1,14 @@
+HTTrack3.47-27+htsswf+htsjava launched on Tue, 19 Nov 2013 11:02:44 at http://projecteuler.net +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC1%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" -%l "en, *" http://projecteuler.net -O1 "C:\My Web Sites\http___projecteuler.net" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:13:16	Warning: 	file not stored in cache due to bogus state (broken size, expected 31305 got 12288): projecteuler.net/project/matrix.txt
+11:22:50	Warning: 	Retry after error -4 (Incorrect length (12288 Bytes, 31305 expected)) at link projecteuler.net/project/matrix.txt (from projecteuler.net/problem=81)
+11:22:56	Error: 	"Not Found" (404) at link projecteuler.net/CabriJava.class (from projecteuler.net/problem=363)
+
+HTTrack Website Copier/3.47-27 mirror complete in 20 minutes 13 seconds : 854 links scanned, 851 files written (6951916 bytes overall), 820 files updated [6760317 bytes received at 5573 bytes/sec]
+(1 errors, 2 warnings, 0 messages)
