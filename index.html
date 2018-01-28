@@ -1,44 +1,92 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Himanshu Mishra</title>
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-<style>
-    body, html {
-        color: black;
-        background: #FFF9C4;
-        font-family: 'Roboto', 'Open Sans', 'san serif';
-    }
-</style>
-</head>
-<body>
-<div style="padding:20vh;">
-    <div style="font-size: 23px;">
-        Himanshu Mishra
-    </div>
-    <div>
-        Software Developer
-    </div>
-    <div>
-        Currently working @ Cozee Homes
-    </div>
-    <div style="padding-top: 14vh;">
-    </div>
-    <br>
-    <div>
-        <span><a href="about.html" title="click to know me more" style="color:#304FFE;text-decoration: none;font-size:20px;padding-right: 10vh;">About me</a></span>
-        <span><a href="projects.html" title="interesting things to fork" style="color:#304FFE;text-decoration: none;padding-right: 10vh;font-size:20px;">Project</a></span>
-        <span><a href="resume.pdf" title="my resume" style="color:#304FFE;text-decoration: none;padding-right: 10vh;font-size:20px;">Resume</a></span>
-        <span style="color:#304FFE;white-space:nowrap">
-        <img src="twitter-bird.png" style="display:inline;" width="23px" height="23px"  alt="">
-        <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACKElEQVRYR92XjU3cQBSEZyogHSQdQCoIqSB0EFIBUAGkAqCCQAWBCoAKclcBUAFQwYs+WF/WP2d7HSwknmTdoVu/mZ33i/XG5jfG1/siEBG7kr5L2k7KLiRdS/pp+zFXOyK2bV+vFOBl22dTQhIRW5J+SeKzywA/kHQh6ZskiN7b3n0mEBE7kn5L+lFKIiI+SPoj6VMB+SfOo0pF4EjSYXKwb/t0rLOIQDVkH2v3kvYlbUhyRaDpBKlQoxa3JkK6/cNY5Ma5JbnSpUB1DnDUOF8HQCJJuppA4AU8C0GVA12+7iQddRGJCKQ8LiSwtL1K1rwKAPrY4wxFKCmehe2bLHlLONzYrsr0XyP6DzlLwDnbJhARVMGtpM+pRsnQuezUNqF7tioJTyTtzYXY8HtgG7wagb4kfG1eX2nBNQL8ERH07c3XRmv4e7JN51xZXgWUBszmjP85/b+TQFIBEnTFuZSoyb9KwopRaq1IRFV8KRwwQ9Fj+rUGVm0hSQRoSHOEoXX7lgIpDPlkHLrV2N8vbVNpLetcySaM2D4izP4t2yg7jkBSgmxFjb75MEaBTulbfWCdp4ggcagMkrLUBjes3q04TTvGbcm6BUlkZ5cY3DFbBNJU5LaEoBQYcFauHdt01kFzuiXTaYrEOQC3ZsicDK1y+Uu1tTzdupQIN0bqs3WZ3idDVwiQnY2Fh+88eSWwz1FSSHwxVup1JN7Xv2aDGVfSiKY4m/LOXzTKwIs1oJ1rAAAAAElFTkSuQmCC" width="23px" height="23px" /> -->
 
-         <a href="https://twitter.com/5Hmishra" title="my resume" style="color:#304FFE;text-decoration: none;padding-right: 10vh;font-size:20px;display:inline;">@5HMishra</a></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Himanshu Mishra" name="author">
+    <title>Himanshu Mishra</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+
+    <style>
+        body,
+        html {
+            color: black;
+            background: white;
+            font-family: 'Bitter', 'Open Sans', 'san serif';
+        }
+
+        .cardframe {
+            background: #fff;
+            border-radius: 7px;
+            display: inline-block;
+            height: 350px;
+            margin: 1rem;
+            position: relative;
+            width: 350px;
+        }
+
+        .cardframe-1 {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        }
+
+        .cardframe-1:hover {
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+        .no-a {
+            color:#304FFE;
+            text-decoration: none;
+            font-size:20px;
+        }
+    </style>
+</head>
+
+<body class="container" style="margin:10vh;">
+    <div class="row">
+        <div class="col">
+            <div class="row" style="font-size: 32px;">Himanshu Mishra</div>
+            <div class="row">Software Developer</div>
+            <div class="row">
+                Currently working
+                &nbsp;
+                <a href="https://cozee.in" style="color:#304FFE;" target="_blank">@CozeeHomes</a>
+                &nbsp;
+                and &nbsp;
+                <a href="https://thehousemonk.com" style="color:#304FFE;" target="_blank">@TheHouseMonk</a>
+            </div>
+            <br><br><br><br><br><br><br><br>
+            <div class="row">
+                <div class="col"  style="padding-left:0px;padding-right:0px;">
+                    <a class="no-a" href="about.html" title="click to know me more">About me</a>
+                </div>
+                <div class="col">
+                    <a class="no-a" href="projects.html" title="interesting things to fork">Project</a>
+                </div>
+                <div  class="col-4">
+                    <a class="no-a" href="resume.pdf" title="my resume">Resume</a>
+                    <span style="font-size:12px;"> (as on July-2016)</span>
+                </div>
+                <div class="col" style="color:#304FFE;white-space:nowrap">
+                    <img src="twitter-bird.png" style="display:inline;" width="23px" height="23px" alt="">
+                    <a class="no-a" href="https://twitter.com/5Hmishra" title="my resume">@5HMishra</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-3">
+            <img class="cardframe cardframe-1" src="./img/me.jpg" alt="">
+        </div>
     </div>
-</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
