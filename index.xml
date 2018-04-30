@@ -6,10 +6,20 @@
     <description>Recent content on Himanshu Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 22:37:37 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 30 Apr 2018 23:45:21 +0530</lastBuildDate>
     
 	<atom:link href="http://mishr.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Side Projects</title>
+      <link>http://mishr.co/side-projects/</link>
+      <pubDate>Mon, 30 Apr 2018 23:45:21 +0530</pubDate>
+      
+      <guid>http://mishr.co/side-projects/</guid>
+      <description>HackerNews App Read all your hackernews related stories here. Works offline! Now you can read stories even when you are on flight mode or out of coverage area.Link
+Tweet Analyzer Tweet Analyzer is a web app that makes incredibly easy to get insight of Twitter data of selected categories. It categories includes search related to individuals, brands, events and agencies. It mines and organizes them. It provides analytics that facilitates users to be more decisive and do more.</description>
+    </item>
     
     <item>
       <title>Resume</title>
@@ -17,7 +27,7 @@
       <pubDate>Mon, 30 Apr 2018 22:37:37 +0530</pubDate>
       
       <guid>http://mishr.co/resume/</guid>
-      <description>This is place where I add my resume updated version.</description>
+      <description>Resume as on July-2016. Download here</description>
     </item>
     
     <item>
@@ -37,7 +47,7 @@ Features  Responsive Suited for blogging and personal webpages Disqus support Bu
       <pubDate>Mon, 30 Apr 2018 21:38:25 +0530</pubDate>
       
       <guid>http://mishr.co/about/</guid>
-      <description>This page is about me. Himanshu Mishra.</description>
+      <description>This page is about me.</description>
     </item>
     
   </channel>
