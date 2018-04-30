@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Himanshu Mishra</title>
+    <link>http://mishr.co/</link>
+    <description>Recent content on Himanshu Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Apr 2018 22:37:37 +0530</lastBuildDate>
+    
+	<atom:link href="http://mishr.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resume</title>
+      <link>http://mishr.co/resume/</link>
+      <pubDate>Mon, 30 Apr 2018 22:37:37 +0530</pubDate>
+      
+      <guid>http://mishr.co/resume/</guid>
+      <description>This is place where I add my resume updated version.</description>
+    </item>
+    
+    <item>
+      <title>Cocoa</title>
+      <link>http://mishr.co/blog/cocoa/</link>
+      <pubDate>Mon, 30 Apr 2018 21:40:40 +0530</pubDate>
+      
+      <guid>http://mishr.co/blog/cocoa/</guid>
+      <description>A consistent and responsive Hugo theme with clean typography. The primary typefaces are Open Sans, Raleway, and Ubuntu Mono.
+Demo / Screenshots
+Features  Responsive Suited for blogging and personal webpages Disqus support Built-in 404 page Syntax highlighting with highlightjs (by @andy4thehuynh) Gravatar/static profile image (by @remeh) RSS feed and icon (by @mvrilo) Optimized SVG icons (by @robinst) for Instagram, 500px, and more Cache busting Google Analytics Piwik and Gitalk support  Most features are optional and can be individually enabled/disabled in your config.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://mishr.co/about/</link>
+      <pubDate>Mon, 30 Apr 2018 21:38:25 +0530</pubDate>
+      
+      <guid>http://mishr.co/about/</guid>
+      <description>This page is about me. Himanshu Mishra.</description>
+    </item>
+    
+  </channel>
+</rss>
